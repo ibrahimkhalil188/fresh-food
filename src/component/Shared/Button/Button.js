@@ -3,7 +3,7 @@ import './Button.css'
 const Button = ({ children }) => {
     return (
         <div>
-            <button>{children}</button>
+            <button className='button-large'>{children}</button>
         </div>
     );
 };

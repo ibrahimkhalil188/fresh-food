@@ -11,7 +11,7 @@ const Products = () => {
             .then(data => setProducts(data))
     })
     return (
-        <div className='main'>
+        <div className='main' id='product'>
             <h2>Our products</h2>
             <div className='products-div'>
                 {
@@ -33,6 +33,7 @@ const Products = () => {
                                 <p>Name: {product.name}</p>
                                 <p>Price: ${product.price}</p>
                             </div>
+                            <button>BUY NOW</button>
                         </div>
                     )
                 }

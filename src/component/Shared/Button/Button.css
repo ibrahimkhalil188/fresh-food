@@ -1,4 +1,4 @@
-button {
+.button-large {
     background-color: rgba(255, 0, 0, 0.809);
     color: white;
     outline-style: none;
@@ -8,4 +8,16 @@ button {
     padding: 14px 24px;
     border-radius: 10px;
     cursor: pointer;
+}
+
+button {
+    background-color: rgba(255, 0, 0, 0.809);
+    color: white;
+    outline-style: none;
+    border: none;
+    font-size: 14px;
+    padding: 10px 15px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: 10px;
 }
