@@ -1,0 +1,33 @@
+.info-div {
+    width: 75%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid black;
+    position: absolute;
+    bottom: -100px;
+    right: 165px;
+    background-color: white;
+    text-align: center;
+}
+
+.card {
+    padding: 5px 10px;
+    margin: 20px 0px 10px 0px;
+    border-right: 2px solid black;
+}
+
+.info-div :last-child {
+    border-right: none;
+}
+
+span {
+    font-size: 34px;
+}
+
+.card:hover span {
+    background-color: rgb(208, 18, 18);
+    color: white;
+    padding: 3px 6px;
+    border-radius: 5px;
+}
