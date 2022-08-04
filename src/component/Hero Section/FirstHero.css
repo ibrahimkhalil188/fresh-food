@@ -5,9 +5,10 @@
 }
 
 img {
-    padding-right: 10px;
+    margin: 10px;
     width: 550px;
     margin-top: 50px;
+    border-radius: 10px;
 }
 
 .hero-text {
