@@ -1,0 +1,40 @@
+.best-product-div {
+    display: flex;
+    position: relative;
+}
+
+.best-product-div div {
+    height: 50vh;
+    margin: 0 auto;
+}
+
+.best-product-div div>img {
+    height: 100%;
+}
+
+.quote-one {
+    position: absolute;
+    top: 120px;
+    left: 350px;
+    width: 15%;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.quote-one Button {
+    margin-top: 25px;
+}
+
+.quote-two {
+    position: absolute;
+    top: 120px;
+    left: 680px;
+    width: 15%;
+    font-size: 24px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.quote-two Button {
+    margin-top: 25px;
+}

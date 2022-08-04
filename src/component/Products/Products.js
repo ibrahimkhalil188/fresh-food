@@ -1,5 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import './Products.css'
+import { BsCartCheck } from 'react-icons/bs'
+import { AiOutlineHeart, AiOutlineEye } from 'react-icons/ai'
 const Products = () => {
     const [products, setProducts] = useState()
     const url = 'fakedata.json'
@@ -10,16 +12,26 @@ const Products = () => {
     })
     return (
         <div className='main'>
-            <h1>Our products</h1>
+            <h2>Our products</h2>
             <div className='products-div'>
                 {
-                    products.map(product =>
-                        <div className='card'>
+                    products?.map(product =>
+                        <div className='card' key={product.id}>
                             <img src={product.image} alt="" />
-                            <p>Name: {product.name}</p>
-                            <p>Price: ${product.price}</p>
-                            <div className=''>
-                                <h1>Hi</h1>
+                            <div className='card-footer'>
+                                <span title='Show Details'>
+                                    <AiOutlineEye></AiOutlineEye>
+                                </span>
+                                <span title='Add to whitelist'>
+                                    <AiOutlineHeart></AiOutlineHeart>
+                                </span>
+                                <span title='Add to cart'>
+                                    <BsCartCheck></BsCartCheck>
+                                </span>
+                            </div>
+                            <div className='product-details'>
+                                <p>Name: {product.name}</p>
+                                <p>Price: ${product.price}</p>
                             </div>
                         </div>
                     )
