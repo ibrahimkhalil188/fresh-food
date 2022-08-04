@@ -1,4 +1,26 @@
-.products-div {
+.main {
     margin-top: 100px;
     text-align: center;
+}
+
+.products-div {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 20px;
+}
+
+.card {
+    box-shadow: rgba(111, 109, 109, 0.19) 0px 10px 20px, rgba(128, 126, 126, 0.23) 0px 6px 6px;
+    ;
+}
+
+.card img {
+    width: 150px;
+    margin: 0px;
+}
+
+.card p {
+    margin: 0px;
+    padding: 0px;
+    line-height: -5px;
 }

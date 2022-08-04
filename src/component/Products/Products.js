@@ -9,14 +9,22 @@ const Products = () => {
             .then(data => setProducts(data))
     })
     return (
-        <div className='products-div'>
+        <div className='main'>
             <h1>Our products</h1>
-            {
-                products.map(product =>
-                    <div>
-
-                    </div>)
-            }
+            <div className='products-div'>
+                {
+                    products.map(product =>
+                        <div className='card'>
+                            <img src={product.image} alt="" />
+                            <p>Name: {product.name}</p>
+                            <p>Price: ${product.price}</p>
+                            <div className=''>
+                                <h1>Hi</h1>
+                            </div>
+                        </div>
+                    )
+                }
+            </div>
         </div>
     );
 };

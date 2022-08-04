@@ -27,7 +27,7 @@ const Info = () => {
     return (
         <div className='info-div'>
             {info.map(item =>
-                <div className='card' key={item.id}>
+                <div className='info-card' key={item.id}>
                     <span>{item.icon}</span>
                     <h4>{item.name}</h4>
                     <p>{item.description}</p>
