@@ -7,6 +7,9 @@ const Navbar = () => {
             <div className='logo'>
                 <h2>FreshFood</h2>
             </div>
+            <div>
+                <input type='text' className='search-bar' ></input><span>Search</span>
+            </div>
             <div className='menu'>
                 <li><a href='#home'>Home</a></li>
                 <li><a href='#product'>Product</a></li>

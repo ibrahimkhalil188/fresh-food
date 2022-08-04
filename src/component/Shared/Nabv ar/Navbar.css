@@ -5,6 +5,9 @@
     background-color: rgba(255, 0, 0, 0.714);
     height: 63px;
     padding: 0px 20px;
+    position: sticky;
+    top: 0;
+    z-index: 10;
 }
 
 .logo {
@@ -34,4 +37,19 @@ a {
 
 li a:hover {
     border-bottom: 2px solid white;
+}
+
+.search-bar {
+    width: 450px;
+    height: 30px;
+    border: 2px solid gray;
+    font-size: 22px;
+}
+
+.search-bar~span {
+    font-size: 20px;
+    color: gray;
+    position: relative;
+    right: 70px;
+    cursor: pointer;
 }

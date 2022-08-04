@@ -1,8 +1,8 @@
 import React from 'react';
 import BestProduct from '../component/BestProduct/BestProduct';
-import BusinessSum from '../component/Business/BusinessSum';
 import FirstHero from '../component/Hero Section/FirstHero';
 import Products from '../component/Products/Products';
+import Reviews from '../component/Reviews/Reviews';
 
 const Home = () => {
     return (
@@ -10,7 +10,7 @@ const Home = () => {
             <FirstHero></FirstHero>
             <Products></Products>
             <BestProduct></BestProduct>
-            <BusinessSum></BusinessSum>
+            <Reviews></Reviews>
         </div>
     );
 };
