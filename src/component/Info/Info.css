@@ -32,3 +32,28 @@ span {
     padding: 3px 6px;
     border-radius: 5px;
 }
+
+@media screen and (min-width: 320px) and (max-width: 425px) {
+    .info-div {
+        width: 100%;
+        display: none;
+        flex-direction: column;
+        border: 1px solid black;
+        top: 0px;
+        right: 0px;
+        background-color: white;
+        text-align: center;
+    }
+
+    .info-card {
+        padding: 5px 10px;
+        margin: 0px 20px 0px 20px;
+        border-right: 0px solid black;
+        border-bottom: 2px solid black;
+        line-height: normal;
+    }
+
+    .info-div :last-child {
+        border-bottom: none;
+    }
+}
