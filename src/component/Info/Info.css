@@ -35,14 +35,18 @@ span {
 
 @media screen and (min-width: 320px) and (max-width: 425px) {
     .info-div {
-        width: 100%;
-        display: none;
+
+        width: 90%;
+        margin: 20px auto;
+        display: flex;
         flex-direction: column;
         border: 1px solid black;
+        position: relative;
         top: 0px;
         right: 0px;
         background-color: white;
         text-align: center;
+
     }
 
     .info-card {

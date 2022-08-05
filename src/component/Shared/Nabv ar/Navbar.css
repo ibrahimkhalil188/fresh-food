@@ -48,7 +48,6 @@ li a:hover {
 .search-bar~span {
     font-size: 20px;
     color: gray;
-    position: relative;
     right: 70px;
     cursor: pointer;
 }
